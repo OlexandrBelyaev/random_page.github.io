@@ -1,0 +1,73 @@
+﻿/* Tab Content - menucool.com */
+body{
+background-image: linear-gradient(to right, #3386AF , #0D598B);
+margin:0;
+padding:0;
+}
+.inp{margin-left:20%;margin-right:20%;width:60%;}
+.inp-button{background-color:#ED8931;color:white;border:0px;padding:2% 5% 2% 5%;}
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+    background-color:darkblue;
+}
+        
+ul.tabs li a
+{
+    font-family: Athiti;
+    font-size:20px;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 16px;
+    border: 1px solid #0C4C72;
+    border-bottom-color:#B7B7B7;
+    color: #FFF;
+    background: #0C4C72;
+    outline:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: #0C4C72;
+}
+        
+ul.tabs li a:hover
+{
+    border: 1px solid #ED8931;
+    background:#ED8931;
+}
+        
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: #ED8931;
+    border: 1px solid #ED8931;
+    border-bottom-color: white;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+     
+
+div.tabcontents
+{
+    border: 1px solid #B7B7B7; padding: 30px;
+    background-color:#FFF;
+}
